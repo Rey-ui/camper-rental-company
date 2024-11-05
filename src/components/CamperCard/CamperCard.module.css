@@ -1,0 +1,178 @@
+.svgCard {
+  stroke: #101828;
+  fill: none;
+}
+.svgCardHeart {
+  stroke: #101828;
+  fill: none;
+}
+.camperCardContainer {
+  /* overflow-x: hidden; */
+  max-width: 888px;
+  height: 358px;
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 20px;
+}
+.camperCardImg {
+  position: relative;
+}
+.camperCardImg img {
+  transition: all 0.3s;
+  padding: 0;
+  margin: 0;
+  width: 290px;
+  object-fit: cover;
+  overflow: hidden;
+  height: 310px;
+  border-radius: 10px;
+}
+.camperCardImg img:hover {
+  transform: scale(1.02);
+}
+.camperCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  width: 526px;
+  height: 310px;
+  min-width: 288px;
+}
+.camperCardHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+.camperCardHeader {
+  display: flex;
+  width: 526px;
+  align-items: center;
+  justify-content: space-between;
+}
+.camperCardTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  overflow-x: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.camperCardFavorites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.camperCardFavoritesSpan {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+}
+button {
+  background-color: inherit;
+  margin: 0;
+}
+.camperCardFavoritesButton {
+  background-color: none;
+}
+.svgCardHeart {
+}
+.camperCardLoc {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.camperCardRating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: underline;
+}
+.camperCardRating svg {
+  width: 16px;
+  height: 16px;
+  fill: #ffc531;
+}
+
+.camperCardReviews {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+.camperCardMap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.camperCardMap svg {
+  width: 16px;
+  height: 16px;
+}
+.svgCardHeart {
+}
+.camperCardText {
+  /* overflow-x: hidden; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  /* overflow: hidden; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.camperCardText p {
+  overflow-x: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.camperCardListContainer {
+}
+.camperCardList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.camperCardItem {
+  padding: 12px 18px;
+  background-color: #f2f4f7;
+  display: flex;
+  gap: 8px;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+}
+.svgCard {
+}
+.camperCardButtonShow {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: #fff;
+  border-radius: 200px;
+  padding: 16px 40px;
+  background-color: #e44848;
+  transition: all 250ms;
+}
+.camperCardButtonShow:hover {
+  background-color: #d84343;
+}

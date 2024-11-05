@@ -1,0 +1,8 @@
+.modal {
+  overflow: hidden;
+  min-width: 288px;
+  max-width: 982px;
+  width: fit-content;
+  /* height: 80%; */
+  border-radius: 20px;
+}

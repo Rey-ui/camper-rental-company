@@ -1,0 +1,49 @@
+.ContainerNav {
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.NavSvg {
+  stroke: #fff;
+  width: 45px;
+  height: 45px;
+}
+.NavContent {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.NavLink {
+  border-radius: 200px;
+  padding: 16px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #d84343;
+  color: #fff;
+  background-color: #fff;
+  background-color: #c33838;
+  border: 1px solid #9d2c2c;
+  transition: all 250ms;
+}
+.NavLink:hover {
+  color: #cecece;
+  background-color: #a53131;
+  border: 1px solid #872525;
+}
+.active {
+  color: #ff4d4d;
+  color: #fff;
+  background-color: #a8a7a7;
+  background-color: #c33838;
+  border: 1px solid #8b2626;
+  color: #d84343;
+  background-color: #fff;
+  border: none;
+}

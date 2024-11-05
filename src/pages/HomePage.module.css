@@ -1,0 +1,73 @@
+.HomeWrapper {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ContainerHome {
+  padding: 80px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  letter-spacing: -3%;
+}
+.HomeImage {
+  border-radius: 10px;
+}
+.HomeImage img {
+  border-radius: 10px;
+}
+.HomeContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+.HomeTitle {
+  font-weight: 600;
+  font-size: 28px;
+}
+.HomeText {
+}
+button {
+  color: inherit;
+}
+.HomeButton {
+  border-radius: 200px;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background-color: #c33838;
+  display: flex;
+  gap: 10px;
+  transition: all 250ms;
+}
+.HomeButton svg {
+  stroke: #fff;
+  fill: #fff;
+}
+.HomeButton:hover,
+.HomeButton:focus {
+  border-radius: 200px;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background-color: #862626;
+  display: flex;
+  gap: 10px;
+}
