@@ -2,5 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  justify-content: center;
+  gap: 22px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1440px) {
+  .camperListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
 }

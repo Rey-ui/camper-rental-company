@@ -1,17 +1,18 @@
 .catalogWrapper {
   display: flex;
-  gap: 64px;
-  max-width: 1440px;
+  flex-direction: column;
+  gap: 44px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 15px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 .catalogCampersList {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 22px;
 }
 .catalogContent {
   display: flex;
@@ -26,7 +27,77 @@
   gap: 20px;
   text-align: center;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 120%;
   color: #475467;
+}
+@media screen and (min-width: 768px) {
+  .catalogWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    max-width: 758px;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .catalogCampersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .catalogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .catalogAltContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #475467;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .catalogWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .catalogCampersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .catalogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .catalogAltContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #475467;
+  }
 }

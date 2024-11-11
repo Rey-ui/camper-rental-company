@@ -5,14 +5,15 @@
   justify-content: center;
 }
 .ContainerHome {
-  padding: 80px 15px;
+  padding: 50px 15px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 60px;
-  max-width: 1440px;
+  gap: 30px;
+  max-width: 375px;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.03em;
@@ -23,16 +24,18 @@
 }
 .HomeImage img {
   border-radius: 10px;
+  width: 200px;
+  height: 200px;
 }
 .HomeContent {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
   align-items: flex-start;
 }
 .HomeTitle {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 18px;
 }
 .HomeText {
 }
@@ -41,10 +44,9 @@ button {
 }
 .HomeButton {
   border-radius: 200px;
-  padding: 16px 40px;
-  font-size: 16px;
+  padding: 10px 34px;
+  font-size: 14px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: -0.01em;
   color: #fff;
@@ -59,15 +61,132 @@ button {
 }
 .HomeButton:hover,
 .HomeButton:focus {
-  border-radius: 200px;
-  padding: 16px 40px;
-  font-size: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: -0.01em;
   color: #fff;
   background-color: #862626;
   display: flex;
   gap: 10px;
+}
+
+/* ========================================== */
+@media screen and (min-width: 768px) {
+  .HomeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ContainerHome {
+    padding: 65px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 758px;
+    font-size: 18px;
+  }
+  .HomeImage img {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+  }
+  .HomeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .HomeTitle {
+    font-size: 24px;
+  }
+  .HomeText {
+  }
+  .HomeButton {
+    border-radius: 200px;
+    padding: 16px 40px;
+    font-size: 16px;
+    gap: 10px;
+  }
+}
+
+/* =================================== */
+@media screen and (min-width: 1440px) {
+  .HomeWrapper {
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .ContainerHome {
+    padding: 80px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    letter-spacing: -3%;
+  }
+  .HomeImage {
+    border-radius: 10px;
+  }
+  .HomeImage img {
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+  }
+  .HomeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .HomeTitle {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .HomeText {
+  }
+  button {
+    color: inherit;
+  }
+  .HomeButton {
+    border-radius: 200px;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #fff;
+    background-color: #c33838;
+    display: flex;
+    gap: 10px;
+    transition: all 250ms;
+  }
+  .HomeButton svg {
+    stroke: #fff;
+    fill: #fff;
+  }
+  .HomeButton:hover,
+  .HomeButton:focus {
+    border-radius: 200px;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #fff;
+    background-color: #862626;
+    display: flex;
+    gap: 10px;
+  }
 }

@@ -1,7 +1,7 @@
 .BookCamperFormContainer {
   max-width: 448px;
   padding: 24px;
-  min-width: 448px;
+  /* min-width: 448px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
