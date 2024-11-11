@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 22px;
   border: 1px solid rgba(16, 24, 40, 0.2);
   border-radius: 10px;
 }
@@ -17,13 +17,13 @@
 }
 .BookCamperFormTitle {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 120%;
   color: #101828;
 }
 .BookCamperFormText {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   color: #475467;
 }
@@ -40,7 +40,7 @@
 .BookCamperFormInput {
   width: 100%;
   border-radius: 10px;
-  padding: 18px 18px;
+  padding: 16px 16px;
   background-color: #f7f7f7;
 }
 .BookCamperFormLabelDate {
@@ -48,7 +48,7 @@
 .BookCamperFormInputDate {
   width: 100%;
   border-radius: 10px;
-  padding: 18px 18px;
+  padding: 16px 16px;
   background-color: #f7f7f7;
   /* display: none; */
 }
@@ -58,19 +58,19 @@
   resize: none;
   width: 100%;
   border-radius: 10px;
-  padding: 18px 18px;
+  padding: 16px 16px;
   background-color: #f7f7f7;
   min-height: 114px;
 }
 .BookCamperFormBtn {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   letter-spacing: -0.01em;
   margin: 0;
   color: #fff;
   border-radius: 200px;
-  padding: 16px 60px;
+  padding: 13px 57px;
   background-color: #e44848;
   transition: all 250ms;
 }
@@ -90,4 +90,96 @@
 }
 .ErrorMessage .BookCamperFormInput {
   border: 1px solid red;
+}
+@media screen and (min-width: 1440px) {
+  .BookCamperFormContainer {
+    max-width: 448px;
+    padding: 24px;
+    /* min-width: 448px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border: 1px solid rgba(16, 24, 40, 0.2);
+    border-radius: 10px;
+  }
+  .BookCamperFormHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .BookCamperFormTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #101828;
+  }
+  .BookCamperFormText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #475467;
+  }
+  .BookCamperFormMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .BookCamperFormLabel {
+    width: 100%;
+    position: relative;
+  }
+  .BookCamperFormInput {
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 18px;
+    background-color: #f7f7f7;
+  }
+  .BookCamperFormLabelDate {
+  }
+  .BookCamperFormInputDate {
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 18px;
+    background-color: #f7f7f7;
+    /* display: none; */
+  }
+  .BookCamperFormLabelTextarea {
+  }
+  .BookCamperFormInputTextarea {
+    resize: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 18px;
+    background-color: #f7f7f7;
+    min-height: 114px;
+  }
+  .BookCamperFormBtn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    margin: 0;
+    color: #fff;
+    border-radius: 200px;
+    padding: 16px 60px;
+    background-color: #e44848;
+    transition: all 250ms;
+  }
+  .BookCamperFormBtn:hover {
+    background-color: #d84343;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .ErrorMessage {
+    position: absolute;
+    left: 0;
+    top: 53px;
+    font-size: 12px;
+    color: #e44848;
+  }
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  max-width: 430px;
+  max-width: 600px;
 }
 .ReviewsItem {
   display: flex;
@@ -24,7 +24,7 @@
   width: 60px;
   height: 60px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 125%;
   color: #e44848;
   background-color: #f2f4f7;
@@ -38,7 +38,7 @@
 }
 .ReviewsItemTitle {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 133%;
 }
 .ReviewsItemRaiting {
@@ -52,7 +52,67 @@
 }
 .ReviewsItemComment {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   color: #475467;
+}
+@media screen and (min-width: 1440px) {
+  .ReviewsList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 430px;
+  }
+  .ReviewsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .ReviewsItemHeader {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .ReviewsItemLetter {
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    color: #e44848;
+    background-color: #f2f4f7;
+  }
+  .ReviewsItemText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .ReviewsItemTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+  }
+  .ReviewsItemRaiting {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .ReviewsItemRaiting svg {
+    width: 16px;
+    height: 16px;
+  }
+  .ReviewsItemComment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #475467;
+  }
 }

@@ -209,6 +209,189 @@
   gap: 20px;
   align-items: flex-start;
 }
+@media screen and (min-width: 768px) {
+  .wrapperModalContent {
+    margin-top: 30px;
+  }
+  .wrapperModalContentHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .wrapperModalContentTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+  }
+  .wrapperModalContentText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .wrapperModalContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .wrapperModalRatingContainer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .wrapperModalRatingContainer svg {
+    fill: #ffc531;
+    width: 16px;
+    height: 16px;
+  }
+  .camperCardReviews {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: underline;
+  }
+  .camperCardMap {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .svgCardMap {
+    fill: none;
+    stroke: #101828;
+    width: 16px;
+    height: 16px;
+  }
+  .camperCardPrice {
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+  }
+  .buttonWrapperClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .modalInfo {
+    /* height: 510px; */
+    height: 50vh;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 44px;
+  }
+
+  .modalInfo::-webkit-scrollbar {
+    height: 264px;
+    width: 8px;
+  }
+
+  .modalInfo::-webkit-scrollbar-track {
+    background: inherit;
+    border-radius: 7px;
+  }
+
+  .modalInfo::-webkit-scrollbar-thumb {
+    background-color: #f0eff4;
+    border-radius: 7px;
+    border: 3px solid #f0eff4;
+    transition: var(--anim);
+  }
+
+  .modalInfo::-webkit-scrollbar-thumb:hover {
+    background-color: #d9d9d9;
+    border: 3px solid #d9d9d9;
+  }
+  .svgCardHeart {
+    stroke: #101828;
+  }
+  .modalDescAndImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .modalImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 16px;
+  }
+  .modalImageBtn {
+    border-radius: 10px;
+  }
+  .modalImageImg {
+    border-radius: 10px;
+    max-width: 290px;
+    width: 100%;
+    min-height: 220px;
+    object-fit: cover;
+  }
+  .modalDescription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #475467;
+  }
+  .modalButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .modalButtonsContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .activeTab {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    position: relative;
+  }
+  .activeTab::after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 93px;
+    left: -10px;
+    top: 42px;
+    background-color: #e44848;
+    color: #e44848;
+  }
+  .buttonAddInfo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .modalButtonsLine {
+    width: 100%;
+    height: 2px;
+    color: rgba(16, 24, 40, 0.2);
+    background-color: rgba(16, 24, 40, 0.2);
+  }
+  .modalDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
 @media screen and (min-width: 1440px) {
   .wrapperModal {
     position: relative;
