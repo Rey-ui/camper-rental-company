@@ -72,7 +72,7 @@ const CamperCard = ({ camper, handleOpenModal }) => {
     },
   ];
   return (
-    <li className={css.camperCardContainer}>
+    <div className={css.camperCardContainer}>
       <div className={css.camperCardImg}>
         <img src={camper.gallery[0]} alt="camper" />
       </div>
@@ -141,7 +141,7 @@ const CamperCard = ({ camper, handleOpenModal }) => {
           Show more
         </button>
       </div>
-    </li>
+    </div>
   );
 };
 
